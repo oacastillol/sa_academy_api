@@ -35,7 +35,7 @@ import authResolvers from './auth/resolvers';
 
 
 // merge the typeDefs
-const name = initial; mergedTypeDefs = mergeSchemas(
+const mergedTypeDefs = mergeSchemas(
     [
 	'scalar JSON',
 	studentsTypeDef,
